@@ -1,0 +1,808 @@
+* {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: border-box;
+}
+
+/* header...........................*/
+
+.navbar {
+  height: 60px;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+/* box1............
+..........
+*/
+.navlogo {
+  height: 50px;
+  width: 100px;
+}
+.logo {
+  background-image: url("Amazon-Logo-Font-1-scaled.webp");
+  height: 50px;
+  width: 100px;
+  background-size: cover;
+}
+.border {
+  border: 2px solid transparent;
+}
+.border:hover {
+  border: 2px solid white;
+}
+
+/*box..................
+.....................*/
+#col1 {
+  color: #cccccc;
+  font-size: 12px;
+  padding: 12px 13px 1px;
+}
+#col2 {
+  color: #ffffff;
+  font-size: 14px;
+}
+#ic {
+  margin-right: 3px;
+}
+.iconloc {
+  display: flex;
+  align-items: center;
+}
+.loc {
+  height: 50px;
+  width: 80px;
+  margin: 5px 2px 5px 0px;
+}
+
+/*box3 .......................
+...................*/
+.searchbar {
+  display: flex;
+  align-items: center;
+}
+.searchbar:hover {
+  border: 3px solid orange;
+  border-radius: 8px;
+}
+#select {
+  height: 43px;
+  width: 45px;
+  background-color: #e6e6e6;
+  border-radius: 5px 0px 0px 5px;
+  border: none;
+}
+#search {
+  height: 43px;
+  width: 840px;
+  border: none;
+}
+#lens {
+  height: 43px;
+  width: 40px;
+  background-color: #e6e6e6;
+  border: none;
+}
+#glassicon {
+  height: 43px;
+  width: 40px;
+  background-color: orange;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+}
+
+/*box.................
+.................*/
+.box {
+  height: 50px;
+  width: 60px;
+  display: flex;
+  align-items: end;
+  margin-left: 20px;
+}
+#flag {
+  margin-right: 5px;
+  color: brown;
+  margin-bottom: 8px;
+}
+#lang {
+  height: 13px;
+  width: 13px;
+  margin-bottom: 10px;
+  border: none;
+}
+#id {
+  color: orange;
+  margin-right: 2px;
+  margin-bottom: 9px;
+}
+/*box5................
+.....................*/
+
+.hello {
+  height: 50px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.sign {
+  height: 12px;
+  margin-top: 17px;
+  font-size: 12px;
+}
+.acc {
+  font-size: 14px;
+  font-weight: 600;
+}
+/*box5................
+.....................*/
+.efg {
+  height: 50px;
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.return {
+  height: 14px;
+  width: 59px;
+  font-size: 12px;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+.order {
+  height: 15px;
+  width: 59;
+  font-size: 14px;
+  font-weight: 700;
+}
+.card {
+  height: 50px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+}
+.cart {
+  display: flex;
+  padding: 0px 0px 0px 10px;
+}
+.cart2 {
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 2px;
+}
+/* down navebar..................
+................................*/
+
+.downnavebar {
+  height: 40px;
+  color: white;
+  background-color: #232f3e;
+  display: flex;
+  align-items: center;
+}
+.all {
+  height: 40px;
+  width: 58px;
+  display: flex;
+  align-items: center;
+  padding-left: 11px;
+  margin-left: 10px;
+}
+.all2 {
+  font-size: 14px;
+  margin-left: 5px;
+}
+.today {
+  height: 40px;
+  width: 102px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+.registry {
+  height: 40px;
+  width: 69px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  padding-left: 10px;
+}
+.cus {
+  height: 40px;
+  width: 128px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  padding-left: 10px;
+}
+.gift {
+  height: 40px;
+  width: 81px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  padding-left: 10px;
+}
+.sell {
+  height: 40px;
+  width: 41px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  padding-left: 10px;
+}
+.shop {
+  margin-left: 750px;
+  font-weight: 500px;
+}
+/*IMAGE PART..........
+..........*/
+
+.image4 {
+  height: 300px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-image: url(img4.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+#href {
+  color: #007185;
+  text-decoration: none;
+  margin-left: 0px;
+}
+.text {
+  height: 40px;
+  background-color: #f5f6f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 700;
+  width: 90%;
+  margin-bottom: 30px;
+}
+/*ITEMS..................
+ ......................*/
+.item {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #01331be3;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.game {
+  height: 420px;
+  width: 24%;
+  background-color: #ffffff;
+}
+h2 {
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.headset {
+  height: 165px;
+  width: 135px;
+
+  margin-left: 25px;
+  margin-top: 15px;
+  background-image: url(img24.jpg);
+  background-size: calc(150px);
+  background-repeat: no-repeat;
+}
+.p1 {
+  margin-top: 140px;
+  margin-left: 30px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.p2 {
+  margin-top: 140px;
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.keyboard {
+  height: 165px;
+  width: 135px;
+
+  margin-left: 25px;
+  margin-top: 15px;
+  background-image: url(img25.jpg);
+  background-repeat: no-repeat;
+}
+.chair {
+  height: 165px;
+  width: 135px;
+
+  margin-left: 25px;
+  margin-top: 15px;
+  background-image: url(img26.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.mouse {
+  height: 165px;
+  width: 135px;
+
+  margin-left: 25px;
+  margin-top: 15px;
+  background-image: url(img7.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.set {
+  display: flex;
+  flex-direction: row;
+}
+.set1 {
+  display: flex;
+  flex-direction: row;
+}
+a {
+  text-decoration: none;
+  margin-top: 15px;
+  margin-left: 25px;
+  font-size: 14px;
+  color: #007185;
+}
+
+.toy {
+  height: 420px;
+  width: 24%;
+  background-color: #ffffff;
+}
+.toys {
+  height: 354px;
+  width: 304px;
+
+  margin-top: 10px;
+  margin-left: 20px;
+  background-image: url(img3.jpg);
+  background-size: 304px 340px;
+  background-repeat: no-repeat;
+}
+
+.pc {
+  height: 420px;
+  width: 24%;
+  background-color: #ffffff;
+}
+.pcs {
+  height: 354px;
+  width: 304px;
+  margin-top: 10px;
+  margin-left: 20px;
+  background-image: url(img6.jpg);
+  background-size: 374px;
+  background-repeat: no-repeat;
+}
+.space {
+  height: 420px;
+  width: 24%;
+  background-color: #ffffff;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+.dining {
+  height: 165px;
+  width: 135px;
+
+  margin: 6px 0px 0px 25px;
+  background-image: url(img28.jpg);
+  background-size: 135px 150px;
+  background-repeat: no-repeat;
+}
+.home {
+  height: 165px;
+  width: 135px;
+
+  margin: 6px 0px 0px 25px;
+  background-image: url(img30.jpg);
+  background-size: 135px 150px;
+  background-repeat: no-repeat;
+}
+.kitchen {
+  height: 165px;
+  width: 135px;
+
+  margin: 6px 0px 0px 25px;
+  background-image: url(img29.jpg);
+  background-size: 135px 150px;
+  background-repeat: no-repeat;
+}
+.health {
+  height: 165px;
+  width: 135px;
+
+  margin: 6px 0px 0px 25px;
+  background-image: url(img27.jpg);
+  background-size: 135px 150px;
+  background-repeat: no-repeat;
+}
+
+.p3 {
+  margin-top: 150px;
+  margin-left: 40px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.p4 {
+  margin-top: 150px;
+  margin-left: 20px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.divmid {
+  height: 20px;
+  margin: 0px 10px 0px 10px;
+  background-color: rgba(154, 154, 154, 0.637);
+}
+.item1 {
+  height: 430px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgba(154, 154, 154, 0.637);
+  margin: 0px 10px 0px 10px;
+}
+.top {
+  height: 420px;
+  width: 24%;
+  background-color: #ffffff;
+}
+.tops {
+  height: 230px;
+  width: 252px;
+  margin-top: 20px;
+  margin-left: 49px;
+}
+.cream {
+  height: 230px;
+  width: 139px;
+  background-image: url(img1.jpg);
+  margin-left: 60px;
+}
+#div4 {
+  display: flex;
+}
+.up {
+  height: 24px;
+  width: 89px;
+  font-size: 12px;
+  background-color: #cc0c39;
+  margin: 10px 0px 0px 48px;
+  color: #ffffff;
+  padding: 5px 0px 0px 6px;
+}
+#upto {
+  color: #cc0c39;
+}
+#para {
+  font-size: 13px;
+  margin: 10px 0px 0px 30px;
+}
+.abcd {
+  margin-top: 30px;
+}
+.shops {
+  height: 420px;
+  width: 24%;
+  background-color: #ffffff;
+}
+.beauty {
+  height: 420px;
+  width: 24%;
+  background-color: #ffffff;
+}
+.year {
+  height: 420px;
+  width: 24%;
+  background-color: #ffffff;
+}
+.fashion {
+  height: 420px;
+  width: 24%;
+  background-color: #ffffff;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+.jeans {
+  height: 160px;
+  width: 135px;
+
+  margin: 6px 0px 0px 25px;
+  background-image: url(img12.jpg);
+  background-size: 135px 150px;
+  background-repeat: no-repeat;
+}
+.under {
+  height: 165px;
+  width: 135px;
+
+  margin: 6px 0px 0px 25px;
+  background-image: url(img13.jpg);
+  background-size: 135px 150px;
+  background-repeat: no-repeat;
+}
+.dress {
+  height: 165px;
+  width: 135px;
+
+  margin: 6px 0px 0px 25px;
+  background-image: url(img14.jpg);
+  background-size: 135px 150px;
+  background-repeat: no-repeat;
+}
+.shoes {
+  height: 165px;
+  width: 135px;
+
+  margin: 6px 0px 0px 25px;
+  background-image: url(img2.jpg);
+  background-size: 135px 150px;
+  background-repeat: no-repeat;
+}
+
+.p5 {
+  margin-top: 150px;
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 13px;
+}
+.beauty {
+  height: 420px;
+  width: 24%;
+  background-color: #ffffff;
+}
+.beautys {
+  height: 354px;
+  width: 304px;
+
+  margin-top: 10px;
+  margin-left: 20px;
+  background-image: url(img31.jpg);
+  background-size: 304px 340px;
+  background-repeat: no-repeat;
+}
+.year {
+  height: 420px;
+  width: 24%;
+  background-color: #ffffff;
+}
+.years {
+  height: 354px;
+  width: 304px;
+
+  margin-top: 10px;
+  margin-left: 20px;
+  background-image: url(img5.jpg);
+  background-size: 304px 340px;
+  background-repeat: no-repeat;
+}
+.book {
+  height: 282px;
+
+  background-color: rgba(154, 154, 154, 0.637);
+  margin: 0px 10px 0px 10px;
+}
+.books {
+  height: 200px;
+  display: flex;
+
+  background-color: #ffffff;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+.book1 {
+  height: 200px;
+  width: 133px;
+
+  background-image: url(img18.jpg);
+  background-size: cover;
+}
+.book2 {
+  height: 200px;
+  width: 133px;
+
+  background-image: url(img15.jpg);
+  background-size: cover;
+}
+.book3 {
+  height: 200px;
+  width: 133px;
+
+  background-image: url(img23.jpg);
+  background-size: cover;
+}
+.book4 {
+  height: 200px;
+  width: 133px;
+
+  background-image: url(img22.jpg);
+  background-size: cover;
+}
+.book5 {
+  height: 200px;
+  width: 133px;
+
+  background-image: url(img19.jpg);
+  background-size: cover;
+}
+.book6 {
+  height: 200px;
+  width: 133px;
+
+  background-image: url(img17.jpg);
+  background-size: cover;
+}
+.book7 {
+  height: 200px;
+  width: 133px;
+
+  background-image: url(img20.jpg);
+  background-size: cover;
+}
+.book8 {
+  height: 200px;
+  width: 133px;
+
+  background-image: url(img21.jpg);
+  background-size: cover;
+}
+.bookes {
+  height: 280px;
+
+  background-color: #ffffff;
+  margin: 0px 10px 0px 10px;
+}
+.bests {
+  font-size: 23px;
+  font-weight: 700;
+  padding: 7px 0px 0px 10px;
+}
+.div5 {
+  height: 30px;
+}
+.div6 {
+  height: 100px;
+  border: 1px solid rgba(154, 154, 154, 0.637);
+  margin: 0px 1px 0px 1px;
+  padding: 30px 0px 0px 0px;
+
+  border-radius: 4px;
+}
+.div7 {
+  height: 60px;
+  width: 1350px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.see1 {
+  font-size: 13px;
+}
+.see2 {
+  height: 28px;
+  width: 280px;
+  background-color: orange;
+  border: none;
+}
+.see3 {
+  font-size: 13px;
+}
+.link2 {
+  font-size: 13px;
+  margin: 0px;
+}
+.div8 {
+  border: 1px solid rgba(154, 154, 154, 0.637);
+  height: 20px;
+}
+/*footer.................................................
+.......................................................*/
+
+.div9 {
+  height: 45px;
+  background-color: #232f3edc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.back {
+  font-size: 13px;
+  color: #ffffff;
+}
+.div10 {
+  height: 500px;
+  background-color: #232f3e;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.text2{
+height: 318px;
+width: 184px;
+
+}
+.text3{
+    height: 318px;
+    width: 184px;
+    
+}
+.text4{
+    height: 318px;
+    width: 200px;
+    
+}
+.text5{
+    height: 318px;
+    width: 184px;
+    
+}
+
+.p8{
+    color: #ffffff;
+    font-weight: 700px;
+}
+.a4{
+    color: #ffffff;
+    font-size: 14px;
+    display:block;
+    margin-left: 0px;
+}
+.div11 {
+    height: 120px;
+    border: 1px solid rgba(154, 154, 154, 0.637);
+    background-color: #232f3e;
+   
+  }
+  .div12{
+    height:70px ;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 90px;
+   
+  }
+  .div13{
+    height: 50px;
+    width: 90px;
+   
+    background-image: url(Amazon-Logo-Font-1-scaled.webp);
+    background-size: cover;
+
+  }
+  .english{
+    height: 34px;
+    width: 117px;
+    border-radius: 4px;
+    background-color: #232f3e;
+    border: 1px solid  rgba(154, 154, 154, 0.637) ;
+    margin-left: 10px;
+
+  }
+  .usa{
+    height: 34px;
+    width: 150px;
+    border-radius: 4px;
+    border: 1px solid  rgba(154, 154, 154, 0.637) ;
+    background-color: #232f3e;
+    margin-left: 10px;
+  }
